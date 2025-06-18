@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhi-Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pic.jpg" alt="Abhishek Kumar" width="80" class="avatar-interactive">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Abhishek Kumar">Abhishek Kumar</h1>
+
+          <p class="title">AI Engineer</p>
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:abhiydv23096@.com" class="contact-link">abhiydv23096@.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 6200087830" class="contact-link">+91 6200087830</a>
+              <a href="tel:+91 9470074183" class="contact-link">+91 9470074183</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-07-22">July 22, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bara Bazar Madhubani,Bihar,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/abhishek-kumar-0178aa368/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/AbhiYadav4723" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="Our-Agency">
+            <a href="https://www.instagram.com/techseva_it_solutions/" class="Our-Agency-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="Our-Agency">
+            <a href="https://techseva-it-solutions.vercel.app//" class="Our-Agency-link">
+              <img src="assets/images/logo.png" alt="Our Agency Website Logo" style="height:40px;" />
+            </a>
+          </li>
+
+        </ul>
+
+        <div style="text-align:center; margin: 20px 0;">
+          <a href="./My Resume.pdf" download class="btn"
+            style="display:inline-block; background:#4e54c8; color:#fff; padding:10px 24px; border-radius:6px; font-weight:600; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+            <ion-icon name="download-outline"
+              style="vertical-align:middle; margin-right:8px;"></ion-icon>
+            My Resume
+          </a>
+        </div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text animated-about-text">
+          <p>
+            I am an Aspiring Data Scientist & AI Engineer with expertise in Machine Learning,
+            NLP, Generative AI, and Data Analytics. Proficient in Python, SQL, Power BI, Tableau, 
+            and Cloud APIs, with hands-on experience in AI-driven applications and automation.
+            Passionate about uncovering insights from complex datasets, solving intricate problems, 
+            and driving impactful decisions through data-driven analysis & AI solutions. 
+            My expertise spans machine learning, deep learning, and generative AI, 
+            enabling businesses to leverage data for growth and innovation. 
+            Founder of TechSeva IT Solutions Agency and Board Team Member of Building Bihar NGO, 
+            blending tech innovation with real-world impact. Skilled in building AI-driven apps, 
+            solving complex problems, and turning data into actionable insights.
+
+            <p>
+            🚨Transforming Data into Actionable Insights & AI-Powered Solutions🤖
+            I believe every dataset has a hidden story waiting to be uncovered. With curiosity, technical expertise, 
+            and cutting-edge tools, I am on a mission to solve real-world challenges through data and AI. 
+            Let's collaborate to build something extraordinary!
+          </p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI-Powered App</h4>
+
+                <p class="service-item-text">
+                  I create AI-powered applications that solve real-world problems and enhance user experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI-Powered Solutions🤖</h4>
+
+                <p class="service-item-text">
+                  I develop AI-driven solutions that automate processes, enhance decision-making, and drive innovation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+                <p class="service-item-text">
+                 I analyze data to identify Trends, patterns, and insights that inform business decisions and drive growth.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dashboard Design</h4>
+
+                <p class="service-item-text">
+                  I design interactive dashboards that visualize data insights, making complex information easy to understand.
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Priya Sharma" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Priya Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with you on our AI-driven analytics project was a game changer. Your expertise in machine learning and data visualization helped us uncover insights we never thought possible. Your professionalism and dedication ensured our project was a huge success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Amit Verma" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Verma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Your ability to automate complex workflows using Python and cloud APIs saved us countless hours. The AI solutions you built for our business were innovative and impactful. Highly recommended for any data-driven organization!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Sneha Patel" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sneha Patel</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a core team member of Building Bihar NGO, your tech leadership and data insights have been invaluable. Your passion for using AI to create real-world impact is inspiring. Thank you for helping us drive positive change!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Rahul Singh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rahul Singh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Your deep knowledge of data science, NLP, and generative AI helped us launch our new product ahead of schedule. You always go the extra mile to deliver quality results. Looking forward to collaborating again!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Priya Sharma" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Priya Sharma</h4>
+
+              <time datetime="2025-06-17">17 June, 2025</time>
+
+              <div data-modal-text>
+                <p>
+                  Working with you on our AI-driven analytics project was a game changer. Your expertise in machine learning and data visualization helped us uncover insights we never thought possible. Your professionalism and dedication ensured our project was a huge success.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #EDUCATION
+      -->
+
+      <article class="education" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aryabhatta Knowledge University</h4>
+              <span>2023 — 2026</span>
+              <p class="timeline-text">
+                BCA (Bachelor of Computer Applications) with a focus on Data Science and AI, specializing in machine learning, data analytics.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">iNeuron.AI</h4>
+              <span>2024 — 2025</span>
+              <p class="timeline-text">
+                Full Stack Data Science With Generative AI Bootcamp, specializing in building AI-driven applications, data analysis, and automation.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">PW Institute Of Innovation</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Data Science Course, focusing on data analysis, machine learning, and AI applications.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelancer</h4>
+              <span>2025 — Present</span>
+              <p class="timeline-text">
+                As a freelancer, I specialize in AI-driven applications, data analysis, and automation. I leverage my expertise in Python, SQL, and cloud APIs to deliver innovative solutions that solve real-world problems.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Founder & CEO</h4>
+              <span>2025 — Present</span>
+              <p class="timeline-text">
+                As the Founder and CEO of TechSeva IT Solutions Agency, I lead a team of talented professionals in delivering cutting-edge AI solutions and data analytics services. We are committed to driving innovation and helping businesses leverage technology for growth.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI/ML Engineer at DevDisplay</h4>
+              <span>2024 — Present</span>
+              <p class="timeline-text">
+                As an AI/ML Engineer at DevDisplay, I worked on developing and deploying machine learning models for various AI applications. My role involved data preprocessing, model training, and optimization to enhance performance and accuracy.
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ML Intern</h4>
+              <span>2024 — 2024</span>
+              <p class="timeline-text">
+                As a Machine Learning Intern at iNeuron.ai, I gained hands-on experience in building AI-driven applications, data analysis. I worked on real-world projects that enhanced my skills in Python, SQL, and cloud APIs.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Board Team Member</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                As a Board Team Member of Building Bihar NGO, I contribute my technical expertise to drive social impact initiatives. I leverage data analytics and AI to support the organization's mission of improving lives in Bihar.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Deep Learning</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Generative AI</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Agentic AI</h5>
+                <data value="77">77%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 77%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI Application</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI Application</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="AI Application">
+              <a href="https://breakup-recovery-ai.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thumnail.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BreakUp-Recovery-AI-Multi-Agents</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI Application">
+              <a href="https://dsa-codemastery-club-ai.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DSA.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSA_CodeMastery Club.AI</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://mindgraphx.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mindmap.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-Powered-MindGraphX-Visionary-APP</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="application">
+              <a href="https://ai-resumexpert-analyst.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resume.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">👨‍💻AI ResumeXpert Analyst 🤖</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://ai-personal-finance-agent.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/finance.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">💰AI Personal Finance Agent🤖</h3>
+
+                <p class="project-category">Finance AI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href=" https://news-saathi-ai.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/news.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🤖 News Saathi.AI 🌐🔍</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI Application">
+              <a href="https://snapdiet-ai.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AI.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🤖SnapDiet.AI – AI-Powered Food Scanning</h3>
+
+                <p class="project-category">AI Food App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://bollywood-mood-based-playlist-generator-with-abhi-1.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dj.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bollywood Mood-Based Playlist Generator</h3>
+
+                <p class="project-category">Music Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI Application">
+              <a href="https://youtube-insightai.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/youtube.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">▶️YouTube Insight.AI👨‍💻 App</h3>
+
+                <p class="project-category">AI Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#" onclick="showBlogModal(1); return false;">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="The Rise of Generative AI and Data-Driven Decision Making" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AI & Data Science</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-17">June 17, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">The Rise of Generative AI and Data-Driven Decision Making</h3>
+                  <p class="blog-text">
+                    Discover how Generative AI and advanced analytics are transforming industries, enabling smarter business decisions and innovation.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="showBlogModal(2); return false;">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Automating Business Processes with Python and Cloud APIs" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Automation</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-10">June 10, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Automating Business Processes with Python and Cloud APIs</h3>
+                  <p class="blog-text">
+                    Learn how to streamline your business operations and improve efficiency by automating repetitive tasks using Python and cloud-based APIs.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="showBlogModal(3); return false;">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Unlocking Insights from Data: A Deep Dive into Data Analytics" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Analytics</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-05-28">May 28, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Unlocking Insights from Data: A Deep Dive into Data Analytics</h3>
+                  <p class="blog-text">
+                    Dive deep into the world of data analytics and discover how to extract meaningful insights from complex datasets to drive business growth.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="showBlogModal(4); return false;">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="The Future of AI: Trends and Predictions" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">AI Trends</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-05-15">May 15, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">The Future of AI: Trends and Predictions</h3>
+                  <p class="blog-text">
+                    Explore the latest trends in AI and get insights into the future of artificial intelligence and its impact on various industries.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+          <p class="contact-subtitle">I'd love to hear from you! Reach out using the form or details below.</p>
+        </header>
+
+        <section class="contact-details">
+          <ul class="contact-info-list">
+            <li><ion-icon name="location-outline"></ion-icon> <span>Bihar, India</span></li>
+            <li><ion-icon name="call-outline"></ion-icon> <span>+91 9470074183</span></li>
+            <li><ion-icon name="mail-outline"></ion-icon> <span>abhiydv23096@.com</span></li>
+          </ul>
+        </section>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?q=Bihar,+India&output=embed"
+              width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <input type="tel" name="phone" class="form-input" placeholder="Phone number (Client/HR)" required data-form-input pattern="[0-9+\-() ]{10,15}">
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div class="form-message" style="display:none;"></div>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #NEWS
+      -->
+      <article class="news" data-page="news">
+        <header>
+          <h2 class="h2 article-title">News</h2>
+        </header>
+        <section class="news-section">
+          <ul class="news-list">
+            <li class="news-item">
+              <img src="./assets/images/news.png" alt="News" style="width:60px; margin-right:10px; vertical-align:middle;">
+              <span style="font-size:1.1em; font-weight:500;">Stay tuned for the latest updates and announcements here!</span>
+            </li>
+            <!-- Add more news items as needed -->
+          </ul>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("56kx6ulOf5n-N_2B-");
+    })();
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      emailjs.sendForm('service_nmb2038', 'template_mk55fwc', this)
+        .then(function() {
+          document.querySelector('.form-message').style.display = 'block';
+          document.querySelector('.form-message').style.color = '#FFD700';
+          document.querySelector('.form-message').style.whiteSpace = 'pre-line';
+          document.querySelector('.form-message').textContent =
+            '🎉 Thank you for reaching out! 🎉\n\n' +
+            '1. Your message has been received with a smile.\n' +
+            '2. We truly appreciate your interest and time.\n' +
+            '3. Our team will get back to you as soon as possible.\n' +
+            '4. Wishing you a wonderful day ahead!\n' +
+            '5. Stay awesome and keep shining!';
+          document.getElementById('contact-form').reset();
+        }, function(error) {
+          document.querySelector('.form-message').style.display = 'block';
+          document.querySelector('.form-message').style.color = 'red';
+          document.querySelector('.form-message').textContent = 'Failed to send message. Please try again.';
+        });
+    });
+  </script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
