@@ -1,0 +1,47 @@
+/* Animate Agency.png with a floating and glowing effect */
+.agency-logo img {
+  animation: agency-float 3.2s ease-in-out infinite, agency-glow 2.5s ease-in-out infinite;
+  box-shadow: 0 0 0 4px #ffd70044, 0 0 24px 8px #43cea255, 0 0 40px 0px #ffd70033;
+  border: 2.5px solid #43cea2;
+  background: linear-gradient(135deg, #ffd70022 0%, #43cea211 100%);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+@keyframes agency-float {
+  0%, 100% { transform: translateY(0) scale(1.01) rotate(-2deg); }
+  50% { transform: translateY(-16px) scale(1.06) rotate(2deg); }
+}
+@keyframes agency-glow {
+  0%, 100% { box-shadow: 0 0 0 4px #ffd70044, 0 0 24px 8px #43cea255, 0 0 40px 0px #ffd70033; }
+  50% { box-shadow: 0 0 0 8px #ffd70088, 0 0 48px 16px #43cea288, 0 0 80px 0px #ffd70055; }
+}
+
+/* Interactive hover for Agency.png */
+.agency-logo img:hover {
+  transform: scale(1.08) rotate(-4deg);
+  box-shadow: 0 0 0 8px #ffd70088, 0 0 48px 16px #43cea288, 0 0 80px 0px #ffd70055;
+}
+
+/* Animate all h2, h3, h4, h5, .article-title, .service-item-title, .project-title, .blog-item-title, .contact-title, .clients-title, .testimonials-title, .skills-title, .section-title, .agency-features h4, .agency-about-section h3 for colorful gradient text */
+.animated-colorful-text, .h2, .h3, .h4, .h5, .article-title, .service-item-title, .project-title, .blog-item-title, .contact-title, .clients-title, .testimonials-title, .skills-title, .section-title, .agency-features h4, .agency-about-section h3 {
+  background: linear-gradient(90deg, #ffd700, #43cea2, #4e54c8, #ffd700 80%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: about-gradient-move 4s linear infinite;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  filter: drop-shadow(0 2px 8px #ffd70033);
+}
+
+/* Animate all p, li, .about-text, .agency-about-text for fade-in and color */
+.animated-fadein-colorful, .about-text, .agency-about-text, .agency-features li, .timeline-text, .blog-text, .contact-info, .contact-subtitle, .news-item span {
+  animation: fadein-professional 1.2s ease;
+  color: #ffd700;
+  background: linear-gradient(90deg, #ffd700, #43cea2, #4e54c8, #ffd700 80%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 8px #ffd70033);
+}
