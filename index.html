@@ -16,6 +16,8 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Add Copilot Animation CSS -->
+  <link rel="stylesheet" href="./assets/css/animate-copilot.css">
 
   <!--
     - google font link
@@ -50,6 +52,14 @@
 
           <p class="title">AI Engineer</p>
           <p class="title">Data Analyst</p>
+          <div class="sidebar-mini-links" style="display: flex; flex-direction: row; align-items: center; gap: 12px; margin-top: 8px;">
+            <a href="https://www.linkedin.com/in/abhishek-kumar-0178aa368/" class="sidebar-mini-link sidebar-mini-link-linkedin" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://github.com/abhishekkumar62000" class="sidebar-mini-link sidebar-mini-link-github" target="_blank" title="GitHub" aria-label="GitHub">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.686-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.699 1.028 1.593 1.028 2.686 0 3.847-2.337 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
+            </a>
+          </div>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -207,6 +217,10 @@
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Agency</button>
+          </li>
+
         </ul>
 
       </nav>
@@ -226,7 +240,7 @@
         </header>
 
         <section class="about-text animated-about-text">
-          <p>
+          <p class="a-about-text">
             I am an Aspiring Data Scientist & AI Engineer with expertise in Machine Learning,
             NLP, Generative AI, and Data Analytics. Proficient in Python, SQL, Power BI, Tableau, 
             and Cloud APIs, with hands-on experience in AI-driven applications and automation.
@@ -238,7 +252,7 @@
             blending tech innovation with real-world impact. Skilled in building AI-driven apps, 
             solving complex problems, and turning data into actionable insights.
 
-            <p>
+            <p class="a-about-text">
             🚨Transforming Data into Actionable Insights & AI-Powered Solutions🤖
             I believe every dataset has a hidden story waiting to be uncovered. With curiosity, technical expertise, 
             and cutting-edge tools, I am on a mission to solve real-world challenges through data and AI. 
@@ -1122,6 +1136,99 @@
         </section>
       </article>
 
+      <!--
+        - #AGENCY
+      -->
+      <article class="agency" data-page="agency">
+        <header>
+          <h2 class="h2 article-title">Agency</h2>
+        </header>
+        <section class="agency-about-section" style="display: flex; align-items: flex-start; gap: 32px; flex-wrap: wrap;">
+          <div class="agency-about-text animated-professional-agency" style="flex: 2 1 260px; min-width: 220px;">
+            <h3 class="h3 animated-gradient-professional" style="margin-bottom: 10px;">💡 About Us</h3>
+            <p class="animated-gradient-professional" style="margin-bottom: 14px;">
+              TechSeva Solutions is a <b>Dynamic IT Solutions Agency</b> committed to transforming businesses through cutting-edge technology and innovation. We provide expert services in website and app development, business automation, branding, UI/UX design, digital marketing, and AI-powered solutions to help businesses thrive in the Digital Era.
+            </p>
+            <p class="animated-gradient-professional" style="margin-bottom: 0;">
+              <b>📩 Our Mission:</b> To bridge the gap between technology and business growth by delivering tailored, high-performance solutions that enhance efficiency, engagement, and scalability. Whether you're a startup, SME, or enterprise, we empower you to achieve your goals with smart, scalable, and sustainable digital solutions.
+            </p>
+            <div class="animated-fadein-professional" style="margin-top: 18px; font-weight: 500;">
+              <strong>Founder:</strong> Abhishek Kumar
+            </div>
+
+            <div class="agency-features enhanced-features" style="margin-top: 28px;">
+              <h4 class="h4 features-title-gradient" style="margin-bottom: 10px;">Our Services:</h4>
+              <ul class="features-list-animated features-list-row">
+                <li class="feature-animated ai-feature">🤖 <span>AI Powered Solution</span></li>
+                <li class="feature-animated web-feature">🌐 <span>Website Development</span></li>
+                <li class="feature-animated app-feature">📱 <span>App Development</span></li>
+                <li class="feature-animated uiux-feature">🎨 <span>UI/UX Design</span></li>
+                <li class="feature-animated branding-feature">🎨 <span>Branding & Graphics</span></li>
+                <li class="feature-animated dashboard-feature">📊 <span>Business Dashboards</span></li>
+                <li class="feature-animated marketing-feature">📢 <span>Digital Marketing & SEO</span></li>
+                <li class="feature-animated automation-feature">🤖 <span>Business Automation</span></li>
+            </div>
+          </div>
+          <div class="agency-logo" style="flex: 1 1 120px; min-width: 100px; display: flex; align-items: center; justify-content: center;">
+            <img src="Agency.png" alt="TechSeva IT Solutions Logo" style="max-width: 140px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10);">
+          </div>
+        </section>
+
+        <!-- contact us -->
+        <section class="section service" id="services2" style="margin-top: 36px;">
+          <div class="container">
+            <h2 class="h2 section-title underline">Contact Us</h2>
+            <ul class="contact-list animated-contact-list pro-contact-list">
+              <li>
+                <div class="contact-card animated-contact-card pro-contact-card">
+                  <div class="card-icon animated-icon pro-icon whatsapp">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </div>
+                  <h3 class="h3 title">WhatsApp</h3>
+                  <p class="text">
+                    <a href="https://wa.me/919470074183" target="_blank">Chat with us</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-card animated-contact-card pro-contact-card">
+                  <div class="card-icon animated-icon pro-icon instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </div>
+                  <h3 class="h3 title">Instagram</h3>
+                  <p class="text">
+                    <a href="https://www.instagram.com/techseva_it_solutions/" target="_blank">Follow us</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-card animated-contact-card pro-contact-card">
+                  <div class="card-icon animated-icon pro-icon website">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 title">Our Website</h3>
+                  <p class="text">
+                    <a href="https://techseva-it-solutions.vercel.app/" target="_blank">Visit our website</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="contact-card animated-contact-card pro-contact-card">
+                  <div class="card-icon animated-icon pro-icon email">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 title">Email</h3>
+                  <p class="text">
+                    <a href="mailto:abhiydv23096@gmail.com">Send us an email</a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </article>
+
     </div>
 
   </main>
@@ -1158,7 +1265,8 @@
         }, function(error) {
           document.querySelector('.form-message').style.display = 'block';
           document.querySelector('.form-message').style.color = 'red';
-          document.querySelector('.form-message').textContent = 'Failed to send message. Please try again.';
+          document.querySelector('.form-message').textContent =
+            '❌ Oops! Something went wrong. Please try again later.';
         });
     });
   </script>
